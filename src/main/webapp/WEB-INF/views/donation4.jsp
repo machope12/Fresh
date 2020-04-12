@@ -360,7 +360,7 @@ a:active {
 <input type="radio" name="UMdescription" value="Honor" onClick="applyClass1()"  > 
 Honor<br> 
 
- <label style="font-weight: bold;color:purple">
+ <label style="font-weight: bold;color:red">
        <input type="radio" name="UMdescription" value="Lawyers Helping People"  onClick="applyClass1a()" >
  <i> Lawyers Helping People Emergency Relief Fund</i></label>
   <br/>   
@@ -374,12 +374,11 @@ Honor<br>
  
   <div id ="county" style="display: none">  
   
-   <div class="form-group">
-       <label style="font-weight:bold;">Select County Preference</label><br>
-      <select class="form-control"  name="UMbillphone">
+   <div class="form-group" >
+       <label style="font-weight:bold; margin-left:25px;"> County Preference</label><br>
+      <select class="form-control" style="margin-left:25px;" name="UMbillphone">
       <option>No Preference</option>     
-	<option>Autauga County, AL</option>
-	<option>Baldwin County, AL</option>
+	<option>Autauga County, AL</option>	<option>Baldwin County, AL</option>
 	<option>Barbour County, AL</option>
 	<option>Bibb County, AL</option>
 	<option>Blount County, AL</option>
