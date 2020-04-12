@@ -369,10 +369,13 @@ Honor<br>
        <input type="radio" name="UMdescription" value="Meals For Healthcare"  onClick="applyClass1b()" >
  Meals for Healthcare Workers</label>
  
+ 
+ 
+ 
   <div id ="county" style="display: none">  
   
    <div class="form-group">
-       <label style="font-weight:bold;">Select County Preference</label>
+       <label style="font-weight:bold;">Select County Preference</label><br>
       <select class="form-control"  name="UMbillphone">
       <option>No Preference</option>     
 	<option>Autauga County, AL</option>
